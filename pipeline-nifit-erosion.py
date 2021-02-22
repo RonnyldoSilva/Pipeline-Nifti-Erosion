@@ -98,7 +98,7 @@ if __name__=="__main__":
 					os.makedirs(rt_path)
 				except:
 					print("result patient folder done")
-				#FAZER COM QUE CADA LESÃO TENHA UMA PASTA COM OS TRES NIFTIS
+				#Making every injury have a folder with three Niftis
 				rt_file = rt_path+'/{}'.format(patient)
 
 				print("ORIGINAL NII")
